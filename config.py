@@ -1,1 +1,3 @@
-aws_key = "AKIAIOSFODNN7EXAMPLE"
+import os
+
+aws_key = os.environ.get("AWS_ACCESS_KEY_ID")
